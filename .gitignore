@@ -1,15 +1,29 @@
 # Ignore everything
 /*
+/config/*
+
 /themes/*
 /themes/*/cache/*
+
+/modules/*
 
 
 
 # Except prestachup directory
 !.gitignore
+!.htaccess_example
+!_config.php
+!config/
+!config/alias.php
+!config/defines.inc.php
+!config/settings_example.inc.php
+
 !themes/
 !themes/prestachup/
 !themes/*/cache/index.php
+
+!modules/
+!/modules/prestachup/
 
 
 
