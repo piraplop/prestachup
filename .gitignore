@@ -1,0 +1,62 @@
+# Ignore everything
+/*
+/themes/*
+/themes/*/cache/*
+
+
+
+# Except prestachup directory
+!.gitignore
+!themes/
+!themes/prestachup/
+!themes/*/cache/index.php
+
+
+
+# Ignore files
+
+# Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Icon
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+
+# Editors
+.idea
+.editorconfig
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+.idea/
+/vendor/*
+bower_components
+node_modules
+npm-debug.log
+composer.lock
+*.old
+*.log
+.sass-cache/
