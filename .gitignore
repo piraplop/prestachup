@@ -11,6 +11,7 @@
 
 # Except prestachup directory
 !.gitignore
+!composer.json
 !.htaccess_example
 !_config.php
 !config/
